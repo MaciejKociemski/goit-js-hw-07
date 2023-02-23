@@ -6,12 +6,12 @@ import { galleryItems } from './gallery-items.js';
 
 const gallery = galleryItems;
 const galleryContainer = document.querySelector('.gallery');
-const cardsMarker = createCardsMarker(galleryItems);
-galleryContainer.insertAdjacentHTML('beforeend',cardsMarker);
+const cardsMarkup = createCardsMarkup(galleryItems);
+galleryContainer.insertAdjacentHTML('beforeend',cardsMarkup);
 
 galleryContainer.addEventListener('click', onGaleryContainerClick);
 
-function createCardsMarker(galleryItems) {
+function createCardsMarkup(galleryItems) {
   return galleryItems
     .map(({preview, original, description }) => {
       return `
