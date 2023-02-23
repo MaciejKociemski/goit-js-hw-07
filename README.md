@@ -7,6 +7,7 @@ Przy oddaniu pracy domowej dołączono linki: do plików źródłowych i strony 
 Wiersz poleceń nie zawiera błędów i ostrzeżeń.
 Nazwy zmiennych i funkcji są zrozumiałe, opisowe.
 Sformatowano kod Prettier.
+
 Pliki startowe​
 
 Pobierz pliki startowe z podstawowymi znacznikami, gotowymi stylami i dołączonymi plikami skryptów dla każde zadanie. Skopiuj je do swojego projektu.
@@ -25,6 +26,8 @@ Implementacja delegowania na div.gallery i otrzymanie url większego obrazu.
 Połączenie skryptu i stylów biblioteki okna modalnego basicLightbox. Użyj CDN serwisu jsdelivr i dodaj do projektu linki do minimalizowania (.min) plików biblioteki.
 Otworzenie okna modalnego po kliknięciu w element galerii. Aby to zrobić, zapoznaj się z dokumentacją i przykładami.
 Zmiana wartości atrybutu src elementu <img> w oknie modalnym przed otworzeniem. Użyj gotowego znacznika okna modalnego z obrazem z przykładów biblioteki basicLightbox.
+
+
 Znacznik elementu galerii​
 
 Link do oryginalnego obrazka powinien być przechowywany w atrybucie data source w elemencie <img>, i ukazywać się w href linku. Nie dodawaj innych tagów HTML lub klas CSS oprócz tych, które znajdują się w tym szablonie.

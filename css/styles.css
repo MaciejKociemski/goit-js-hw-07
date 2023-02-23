@@ -23,7 +23,7 @@
 }
 
 .gallery__image:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 .gallery__image {
@@ -42,3 +42,4 @@
 .gallery__link:hover {
   cursor: zoom-in;
 }
+
